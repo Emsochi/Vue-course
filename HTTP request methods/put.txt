@@ -1,0 +1,4 @@
+metoda put 
+
+Metoda PUT służy do zachowania obiektu przekazywanego w treści zapytania pod wskazanym adresem URL. 
+Gdy metoda PUT zakończy się powodzeniem, wykonanie metody GET dla tego samego adresu powinno zwrócić dokładnie ten sam obiekt jaki był użyty w PUT.
