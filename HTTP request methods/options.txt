@@ -1,0 +1,4 @@
+Metoda options
+
+Jest to prośba o przesłanie informacji na temat dostępnych metod komunikacji dla danego zasobu. 
+Możliwe jest także zapytanie o dostępne opcje samego serwera. 
