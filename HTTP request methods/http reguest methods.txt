@@ -1,0 +1,1 @@
+HTTP definiuje zestaw metod żądań, aby wskazać żądaną akcję do wykonania dla danego zasobu
