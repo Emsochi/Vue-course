@@ -1,0 +1,4 @@
+metoda delete
+
+Metoda delete usuwa określony zasób.
+
