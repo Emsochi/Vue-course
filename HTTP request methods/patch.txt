@@ -1,0 +1,4 @@
+metoda patch
+
+W sytuacji, gdy potrzebujemy zaktualizować tylko kilka właściwości rekordu, zastosujemy metodę PATCH. 
+
