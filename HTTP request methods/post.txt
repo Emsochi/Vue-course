@@ -1,0 +1,4 @@
+Metoda post 
+
+Ta metoda służy do przesyłania żądań i wykonania jakiejś akcji w stosunku do konkretnego zasobu. 
+Razem z żądaniem transmitowany jest obiekt w ustalonej reprezentacji.
