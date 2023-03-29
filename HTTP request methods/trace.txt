@@ -1,0 +1,3 @@
+metoda trace
+
+Metoda jest używana do zdalnego śledzenia wywołań wszelkich innych metod HTTP. 
