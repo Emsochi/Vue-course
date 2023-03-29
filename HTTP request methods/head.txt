@@ -1,0 +1,4 @@
+Metoda head
+
+działa tak samo jak metoda GET. Nie zwraca ona jednak treści wiadomości, a jedynie same nagłówki. 
+Powinny one być identyczne z tymi, które są zwracane przez metodę GET o takich samych parametrach.
