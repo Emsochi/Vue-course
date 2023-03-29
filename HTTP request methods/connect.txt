@@ -1,0 +1,3 @@
+metoda connect
+
+Za pomocą tego zapytania możemy połączyć się do serwera pośredniego w drodze do serwera docelowego. 
