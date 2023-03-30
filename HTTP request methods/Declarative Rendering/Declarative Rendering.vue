@@ -3,7 +3,6 @@ Kiedy zmienia się stan, kod HTML aktualizuje się automatycznie.
 
 // Stany, które po zmianie mogą wyzwalać aktualizacje, są uważane za reaktywne .
 
-
 import { reactive } from 'vue'
 
 const counter = reactive({
