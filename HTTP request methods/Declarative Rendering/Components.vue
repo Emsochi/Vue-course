@@ -7,3 +7,11 @@ import ChildComp from './ChildComp.vue'
 Następnie możemy użyć komponentu w szablonie jako:
 
 <ChildComp />
+
+<script setup>
+import ChildComp from './ChildComp.vue'
+</script>
+
+<template>
+  <ChildComp />
+</template>
