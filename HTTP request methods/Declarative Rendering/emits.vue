@@ -9,3 +9,7 @@ emit('response', 'hello from child')
 </script>
 
 Pierwszym argumentem jest nazwa zdarzenia. Wszelkie dodatkowe argumenty są przekazywane do detektora zdarzeń.emit()
+
+Rodzic może nasłuchiwać zdarzeń emitowanych przez dziecko za pomocą v-on- tutaj program obsługi otrzymuje dodatkowy argument z wywołania emisji dziecka i przypisuje go do stanu lokalnego:
+
+<ChildComp @response="(msg) => childMsg = msg" />
