@@ -12,3 +12,15 @@ Note defineProps()to makro w czasie kompilacji i nie trzeba go importować. Po z
 Rodzic może przekazać rekwizyt dziecku, tak jak atrybuty. Aby przekazać wartość dynamiczną, możemy również użyć v-bindskładni:
 
 <ChildComp :msg="greeting" />
+
+np.
+<script setup>
+import { ref } from 'vue'
+import ChildComp from './ChildComp.vue'
+
+const greeting = ref('Hello from parent')
+</script>
+
+<template>
+  <ChildComp :msg="greeting" />
+</template>
