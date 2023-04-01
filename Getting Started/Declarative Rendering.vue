@@ -18,9 +18,16 @@ ref(), z drugiej strony, może przyjąć dowolny typ wartości i utworzyć obiek
 const message = ref('Hello World!')
 
 console.log(message.value) // "Hello World!"
-message.value = 'Changed'
+message.value = 'Changed';
 
-np. 
+
+stan reaktywny zadeklarowany w bloku komponentu można wykorzystać bezpośrednio w szablonie. 
+W ten sposób możemy renderować dynamiczny tekst na podstawie wartości obiektu counteri messageref, używając składni wąsów:
+
+//<h1>{{ message }}</h1>
+//<p>count is: {{ counter.count }}</p>
+
+//np. 
 
 <h1>{{ message }}</h1>
 <p>count is: {{ counter.count }}</p>
