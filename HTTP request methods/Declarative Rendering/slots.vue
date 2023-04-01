@@ -16,3 +16,20 @@ zostanie wyświetlona, ​​jeśli rodzic nie przekazał żadnej zawartości gn
 
 Obecnie nie przekazujemy żadnej zawartości boksu do <ChildComp>, więc powinieneś zobaczyć zawartość zastępczą. 
 Udostępnijmy dziecku trochę zawartości gniazda, korzystając ze msgstanu rodzica.
+
+<script setup>
+import { ref } from 'vue'
+import ChildComp from './ChildComp.vue'
+
+const msg = ref('from parent')
+</script>
+
+<template>
+  <ChildComp>Message: {{ msg }}</ChildComp>
+</template>
+
+//
+
+<template>
+  <slot>Fallback content</slot>
+</template>
