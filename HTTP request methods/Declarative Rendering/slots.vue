@@ -8,3 +8,11 @@ W komponencie potomnym może renderować zawartość gniazda z elementu nadrzęd
 
 <!-- in child template -->
 <slot/>
+
+Treść w <slot>punkcie sprzedaży będzie traktowana jako treść „zastępcza”: 
+zostanie wyświetlona, ​​jeśli rodzic nie przekazał żadnej zawartości gniazda:
+
+<slot>Fallback content</slot>
+
+Obecnie nie przekazujemy żadnej zawartości boksu do <ChildComp>, więc powinieneś zobaczyć zawartość zastępczą. 
+Udostępnijmy dziecku trochę zawartości gniazda, korzystając ze msgstanu rodzica.
