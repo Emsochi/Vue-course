@@ -67,9 +67,9 @@ var products = [
 const SelfServiceMachine = {
 data(){
     return {
-        message: "Hello World"
+         products: window.products
+        }
     }
-}
 };
 
 Vue.createApp(SelfServiceMachine).mount('#app');
