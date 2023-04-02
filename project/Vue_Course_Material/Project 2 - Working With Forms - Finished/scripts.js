@@ -17,9 +17,7 @@ const handlingForms = {
     data() {
         return {
             members: window.members,
-            newMember: {
-
-            }
+            newMember: {}
         }
     },
 
