@@ -6,7 +6,7 @@ var todos = [
     {
         text: 'Learn the basics of Vue JS',
         done: false
-    },
+    }
    
 ]
 
