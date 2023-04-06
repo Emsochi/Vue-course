@@ -20,7 +20,14 @@ const todosApp = {
                 alert("To-do text is required");
             }
         }
-    }
+    },
+    beforeCreate(){
+        console.log(this.NewTodo)
+    },
+    created() {
+        console.log(this.NewTodo)
+    },
+  
 };
 
 Vue.createApp(todosApp).mount('#app');
